@@ -1,35 +1,41 @@
 body {
   padding: 0;
   margin: 0;
-  width: 100vw;
-  height: 100vh;
+
+  overflow: none;
 }
 nav {
   display: flex;
   justify-content: space-around;
-  width: 100vw;
+
   height: 30vh;
+  padding: 0 10vw;
+  overflow: none;
 }
 
-button.nav-btn{
-  width: 20vw;
+button.nav-btn {
+  width: 10vw;
   border: none;
   background-color: transparent;
 }
 
-
-main{
+main {
   display: flex;
+  justify-content: center;
   width: 100vw;
   height: 70vh;
 }
 
-
 button#left-btn,
 button#right-btn {
   width: 15vw;
+  margin: 0 5vw;
 }
 
 div#tiny-display {
-  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
 }
