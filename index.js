@@ -4,6 +4,7 @@ Window.addEventListener('DomContentLoaded', ()=> {
   const storeLink = document.getElementById('store-link')
   const gameLink = document.getElementById('game-link')
   const noteLink = document.getElementById('note-link')
+  const tinyPage = document.getElementById('tiny-page')
 
 
 
