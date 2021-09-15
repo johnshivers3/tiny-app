@@ -6,7 +6,9 @@ Window.addEventListener('DomContentLoaded', ()=> {
   const noteLink = document.getElementById('note-link')
   const tinyPage = document.getElementById('tiny-page')
 
+  const navLinks = [appLink, blogLink, storeLink, gameLink, noteLink]
 
-
-
+  navLinks.forEach(link => link.addEventListener('click', () => {
+    tinyPage.innerText = `${link.id}`
+  }))
 })
